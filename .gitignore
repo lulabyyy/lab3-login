@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Allow directories
+!lib/
+!lib/main.dart
+
+# Allow gitignore file
+!.gitignore

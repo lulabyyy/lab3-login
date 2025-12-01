@@ -1,9 +1,64 @@
-# Ignore everything
-*
+# ========================================
+# Flutter / Dart
+# ========================================
 
-# Allow directories
+# Build outputs
+/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/*.iml
+android/local.properties
+android/captures/
+android/.idea/
+android/build/
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Mac / Windows / Linux system files
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+# Logs
+*.log
+
+# Misc
+*.tmp
+*.bak
+*.orig
+
+# ========================================
+# Git overrides (ไฟล์ที่เราต้องการเก็บไว้)
+# ========================================
+
+# เก็บ lib folder และ main.dart
 !lib/
 !lib/main.dart
 
-# Allow gitignore file
+# เก็บ .gitignore เอง
 !.gitignore
